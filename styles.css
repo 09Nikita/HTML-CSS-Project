@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.right-side{
+    margin-top: 20px;
+}
+
+.nav{
+    width: 960px;
+    height: auto;
+    background: navy;
+    margin-top: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: yellow;
+    background: red;
+}
+
+.nav ul li ul{
+    position: absolute;
+    background: #000;
+    left: -9999px;
+}
+
+.nav ul li:hover ul{
+    left: 0px;
+}
+
+.nav ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+
+.banner-cover{
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text{
+    padding: 100px;
+    text-align:center;
+}
+
+.banner-text button{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0;
+    border-bottom: black;
+}
+
+.about-logo img{
+    width: 320px;
+    height: 400px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px;
+    
+}
+
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.about-text p{
+    font-size: medium;
+}
+
+.row{
+    overflow: auto;
+}
+
+.col{
+    float: left;
+}
+
+.about-section{
+    background: cornflowerblue;
+    padding: 40px 0px;
+    margin-top: 20px;
+    border-left-color: #000;
+}
+
+.title{
+    width: 220px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.title h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service{
+    width: 315px;
+    height: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    background: darkgray;
+}
+
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service p{
+    font-size: 15px;
+    color: #000;
+    line-height: 22px;
+    padding: 0px 15px;
+
+}
+
+.service-section{
+    background: darkgoldenrod;
+    margin-top: 20px;
+    padding: 40px 0px;
+    text-align: center;
+    border-bottom: #000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.serv-icon img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: .5s;
+}
+
+.serv-icon img:hover{
+    color: #fff;
+    transform: scale(.8);
+}
+
+.contact{
+    background: cadetblue;
+    padding: 15px 15px 15px 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.contact-section{
+    background: tomato;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: #000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.cont-icon img{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: aquamarine;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: dimgrey;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+.cont-icon img:hover{
+    color: yellow;
+    transform: scale(.8);
+}
+
+.cont-text p{
+    padding: 0px;
+
+}
+
+.contact-form{
+    width: 620px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: brown;
+}
+
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 80%;
+    border: 0;
+    margin: 8px 0px;
+    border-bottom: #000;
+    margin-left: 40px;
+
+}
+
+.inputTag textarea{
+    width: 83%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.inputTag button{
+    width: 83%;
+    padding: 20px 0px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.footer-side{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
